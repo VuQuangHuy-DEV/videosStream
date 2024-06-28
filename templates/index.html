@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Detection</title>
+</head>
+<style>
+    .body1{
+        display: flex;
+        justify-content: space-between;
+    }
+    .body1 img{
+        width: 15%;
+        
+    }
+</style>
+<body>
+<div class="container">
+    <div style="text-align: center;">
+        <h1>Trường đại học NTT, khoa kĩ thuật công nghệ</h1>
+    </div>
+    <div class="body1">
+        <img src="https://huongnghiepviet.com/tuyen-sinh/images/truong/209/dai-hoc-nguyen-tat-thanh.jpg">
+        <h1>Đồ án tốt nghiệp</h1>
+        <img src="https://huongnghiepviet.com/tuyen-sinh/images/truong/209/dai-hoc-nguyen-tat-thanh.jpg">
+
+
+    </div>
+
+    <div class="content" style="display: flex;justify-content: space-around;">
+        <img src="{{ url_for('video_feed') }}" width="640" height="480" />
+        <div class="item">
+            <h4>Thời gian đổ rác</h4>
+            <h4>Sức chứa</h4>
+        </div>
+        
+
+    </div>
+    
+   
+</div>
+</body>
+</html>
